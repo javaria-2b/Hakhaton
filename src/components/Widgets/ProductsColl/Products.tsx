@@ -6,7 +6,7 @@ import ProductList from "./ProductList";
 
 const NewProducts = () => {
   return (
-    <div className="px-32 mt-24 flex flex-col gap-10">
+    <div className=" mt-48 flex flex-col items-center gap-10 ">
       <Title />
       <ProductList />
     </div>

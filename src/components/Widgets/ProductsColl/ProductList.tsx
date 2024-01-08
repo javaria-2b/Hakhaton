@@ -6,7 +6,7 @@ const ProductList = () => {
   const firstThreeProducts = Products.slice(0, 3);
 
   return (
-    <div className="flex flex-wrap justify-between gap-12 ">
+    <div className="flex flex-wrap justify-center md:justify-between items-center gap-12 ">
       {firstThreeProducts.map((product) => (
         <Card
           key={product.id}

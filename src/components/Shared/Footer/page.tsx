@@ -7,11 +7,12 @@ import Icons from "./Icons";
 const Footer = () => {
   return (
     <div>
-      <div className="px-32 mt-56 flex gap-48">
+      <div className=" mt-56 gap-10  flex flex-col lg:flex-row lg:justify-between px-7 lg:px-32 md:px-16" >
         <div className="flex flex-col gap-10">
           <Title />
           <Icons />
         </div>
+        
 
         <div className="flex flex-col gap-4">
           <p className="font-bold  text-xl text-gray-500">Company</p>
@@ -41,3 +42,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

@@ -5,7 +5,7 @@ import { ShoppingCartIcon } from "lucide-react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between bg-white mt-8 px-6 lg:px-32">
+    <nav className="flex items-center justify-between bg-white mt-8">
       
       <div className="hidden xl:flex space-x-4 ml-4 gap-8">
       <Link href="/" passHref>

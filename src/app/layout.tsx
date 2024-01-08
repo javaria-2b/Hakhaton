@@ -20,10 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        
+        <div className='px-7 lg:px-20 md:px-16'>
       <Navbar/>
       <MobNav/>
         {children}
+
+        </div>
+        
         <Footer/>
         </body>
     </html>

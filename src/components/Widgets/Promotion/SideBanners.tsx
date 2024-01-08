@@ -1,15 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import Banner1 from "/banner3.webp"
-import Banner2 from "/banner2.webp"
 
-const SideBanners = () => {
+const SideBanners: React.FC = () => {
   return (
-    <div className="flex gap-5">
-<Image src={"/banner3.webp"} alt={"Banner"} width={312} height={400}/>
-<Image src={"/banner4.webp"} alt={"Banner"} width={312} height={400}/>
-
+    <div className="flex flex-col gap-5 lg:flex-row">
+      <div className="w-[312px] h-[400px] shrink-0">
+        <Image src="/banner3.webp" alt="Banner 1" width={312} height={400} layout="responsive"/>
       </div>
+      <div className="w-[312px] h-[400px] shrink-0">
+        <Image src="/banner4.webp" alt="Banner 2" width={312} height={400} layout="responsive"/>
+      </div>
+    </div>
   )
 }
 

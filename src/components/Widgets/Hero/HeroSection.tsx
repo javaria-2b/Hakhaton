@@ -6,7 +6,7 @@ import Avatar from "./Image";
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-row items-center gap-60 px-32 mt-16">
+    <div className="flex flex-row items-center gap-60  mt-16">
       <div className=" flex flex-col gap-10">
         <Button variant="secondary">Sale 70%</Button>{" "}
         <div className="text-5xl font-bold">

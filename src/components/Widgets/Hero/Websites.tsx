@@ -7,7 +7,7 @@ import Featured4 from "/public/Featured4.webp";
 
 const Websites = () => {
   return (
-    <div className="md:flex flex-wrap gap-20 mt-20">
+    <div className="flex flex-wrap gap-20 mt-20">
     <Image
       src={"/Featured1.webp"}
       alt={"Featured1"}

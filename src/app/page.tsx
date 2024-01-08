@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className=''>
    <div className=''>
-    <HeroSection/>
-    <Promotion/>
-    <NewProducts/>
-    <DiffSection/>
-    <Newsletter/>
+    <HeroSection/>  
+    <Promotion/> 
+    <NewProducts/> 
+    <DiffSection/> 
+    <Newsletter/>   
     
    </div>
     </main>

@@ -1,22 +1,13 @@
 import React from 'react'
 import Card from '@/components/Widgets/ProductsColl/Card'
 import Products from '@/data/products'
+import ProductDisplay from "./Map"
 
 const Female = () => {
     return (
-      <div className='px-48 mt-24'>
-        <div className="grid grid-cols-4 gap-4">
-          {Products.map((product) => (
-            <Card
-              key={product.id}
-              id={product.id}
-              title={product.title}
-              price={product.price}
-              imageUrl={product.imageUrl}
-              category={product.category}
-              showCategory={true} // Set to false if you don't want to show the category
-            />
-          ))}
+      <div className='px-7 lg:px-20 md:px-16 mt-16'>
+        <div className="flex justify-center">
+         <ProductDisplay/>
         </div>
       </div>
     );
